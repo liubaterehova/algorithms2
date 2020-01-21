@@ -2,7 +2,7 @@
   "name": "algorithms2",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "utils.js",
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
     "eslint-import-resolver-babel-module": "^5.1.1",

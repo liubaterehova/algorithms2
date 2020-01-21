@@ -3,11 +3,10 @@ const adjust = (index, func, arr) => {
     || typeof index !== 'number'
     || typeof func !== 'function'
   ) {
-    return null;
+    throw new Error('Invalid argument type');
   }
-
   const resOfFunc = func(arr[index]);
   return [...arr.slice(0, index), resOfFunc, ...arr.slice(index + 1)];
 };
 
-console.log(adjust(2, (e) => e.toLowerCase(), ['A', 'S', 'D', 'F']));
+console.log(adjust(0, (e) => e.toLowerCase(), ['A', 'S', 'D', 'F']));
