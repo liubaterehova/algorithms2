@@ -1,5 +1,4 @@
 {
-  "parser": "babel-eslint",
   "extends": ["airbnb"],
   "plugins": ["react-hooks"],
   "globals": {
@@ -32,15 +31,6 @@
     "arrow-parens": 0,
     "jsx-a11y/label-has-for": 0,
     "no-debugger": 1,
-    "comma-dangle": ["error", "always-multiline"],
-    "max-len": [
-      "error",
-      120,
-      2,
-      {
-        "ignoreUrls": true,
-        "ignoreComments": false,
-        "ignoreRegExpLiterals": true,
         "ignoreStrings": true,
         "ignoreTemplateLiterals": true
       }
